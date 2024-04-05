@@ -15,9 +15,27 @@
 
 <body data-bs-theme="dark">
 
+
+
     <div id="hero" class="py-5">
+        <nav class="navbar navbar-dark bg-dark px-5">
+            
+                <ul class="d-flex gap-4 list-unstyled">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="{{route('home')}}">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{route('description')}}">Description</a>
+                    </li>
+                </ul>
+                <span class="navbar-text">
+                    Navbar text with an inline element
+                </span>
+            
+        </nav>
         <div class="container py-5 d-flex justify-content-around align-items-center">
-            <img src="https://desarrolloweb.com/storage/serie_images/TLU8RF8GVhElDaXPIIDNqgaS5kTA4Ep81HK0tlXE.jpeg" alt="">
+            <img src="https://desarrolloweb.com/storage/serie_images/TLU8RF8GVhElDaXPIIDNqgaS5kTA4Ep81HK0tlXE.jpeg"
+                alt="">
             <h1 class="display-1 fw-bold">Laravel</h1>
         </div>
 
