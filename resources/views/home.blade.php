@@ -17,7 +17,11 @@
 
 
 
-    <div id="hero" class="py-5">
+    <div id="hero" class="p-5">
+
+        <h1 class="text-uppercase fw-bold">
+            {{$titolo}}
+        </h1>
         <nav class="navbar navbar-dark bg-dark px-5">
             
                 <ul class="d-flex gap-4 list-unstyled">

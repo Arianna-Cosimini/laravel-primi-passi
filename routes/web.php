@@ -14,7 +14,10 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('home');
+
+    $titolo = "Laravel is coming";
+    return view('home', compact('titolo'));
+
 })->name('home');
 
 
